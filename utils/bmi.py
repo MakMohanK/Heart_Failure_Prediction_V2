@@ -28,7 +28,7 @@ def calculate_bmi(weight_kg, height_cm):
     elif bmi >= 30:
         status = "Obesity"
 
-    return [bmi, status]
+    return [int(bmi), status]
 
 # Example usage:
 # weight = 86  # weight in kg

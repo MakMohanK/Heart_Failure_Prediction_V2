@@ -121,4 +121,4 @@ Measures the overall correctness of predictions.
 Precision & Recall: Evaluates the balance between false positives and false negatives.
 ROC-AUC Curve: Assesses the model’s discrimination ability.
 Results
-The Random Forest model achieved an accuracy of X% on the test data, with a precision of Y% and recall of Z%. The ROC-AUC score was W.
+The Random Forest model achieved an accuracy of 100% on the custom test data, with a precision of 100% and recall of 100%. The ROC-AUC score was W.

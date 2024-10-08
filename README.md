@@ -1,5 +1,7 @@
 # Heart Failure Prediction Using Random Forest
 
+![screenshot](imgs/heart.jpg)
+
 ## Overview
 This project involves the analysis and prediction of heart failure risk using a Random Forest machine learning model. The model is trained on customized data, including various patient health metrics, to predict the likelihood of heart failure. The goal is to provide a tool that can assist healthcare professionals in identifying high-risk patients.
 
@@ -27,35 +29,41 @@ Evaluation: Includes model evaluation metrics such as accuracy, precision, recal
 
 ## Project Structure
 ~~~python
-heart-failure-prediction/
-│
-├── data/
-│   └── heart_failure_custom_data.csv   # Customized dataset
-├── model/
-│   └── random_forest_model.pkl         # Trained Random Forest model
-├── notebooks/
-│   └── data_preprocessing.ipynb        # Data preprocessing steps
-│   └── model_training.ipynb            # Model training and evaluation
-├── static/
-│   └── images/
-│       └── example_image.jpg           # Example image for README
-├── templates/
-│   └── index.html                      # Flask HTML template
-├── app.py                              # Flask application
-├── requirements.txt                    # Python dependencies
-├── README.md                           # Project README file
-└── LICENSE                             # License file
+Heart_Failure_Prediction_V2 (Important files)
+| Backend                                                 |
+| - app.py                                                |
+| - utils/machine_learning.py                             |
+| - utils/predictBP.py                                    |
+| - utils/prediction.py                                   |
+| Frontend                                                |
+| - templates/additional_info.html                        |
+| - templates/info.html                                   |
+| - templates/personal_info.html                          |
+| - templates/result.html                                 |
+| - static/styles.css                                     |
+| Machine Learning                                        |
+| - Machine_Learning/Generate_Dataset.ipynb               |
+| - Machine_Learning/Heart_Failure_Analysis.ipynb         |
+| - Machine_Learning/Machine_Learning_Random_Forest.ipynb |
+| Utilities                                               |
+| - utils/ageCalculate.py                                 |
+| - utils/bmi.py                                          |
+| Documentation                                           |
+| - README.md                                             |
+| - requirements.txt                                      |
+| Trained Model                                           |
+| - utils/random_forest_model_v2.pkl                            |
 ~~~
 
 ## Installation
 Clone the repository:
 ~~~python
-git clone https://github.com/yourusername/heart-failure-prediction.git
+git clone https://github.com/MakMohanK/Heart_Failure_Prediction_V2.git
 ~~~
 
 ## Navigate to the project directory:
 ~~~python
-cd heart-failure-prediction
+cd Heart_Failure_Prediction_V2
 ~~~
 ## Create a virtual environment:
 
@@ -84,7 +92,7 @@ pip install -r requirements.txt
 # Usage
 ## Run the Flask application:
 ~~~python
-python app.py
+python3 app.py
 ~~~
 
 Access the application:
